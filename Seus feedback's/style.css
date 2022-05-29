@@ -1,0 +1,265 @@
+* {
+    margin: 0 auto;
+    height: 100%;
+}
+body{
+    background-color: #F6F5FA;
+}
+@font-face {
+    font-family: cocogoose;
+    src: url(../fonts/Cocogoose\ Pro-trial.ttf)
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito-Bold.ttf)
+}
+
+@font-face {
+    font-family: nunitoregular;
+    src: url(../fonts/Nunito-Light.ttf)
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@media screen and (min-width: 1024px) 
+{
+    #menu {
+        background-color: #fff;
+        width: 20%;
+        height: 100%;
+        float: left;
+        box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.12);
+        display: table;
+    }
+    #menu .logo {
+        width: 80%;
+        height: 10%;
+        vertical-align: middle;
+        display: table-cell;
+        margin-top: 10%;
+    }
+    .btn-dados {
+        background-color: #ffffff;
+        width: 100%;
+        height: 9%;
+        font-size: 50%;
+        font-family: nunito;
+        color: #b8b8b8;
+        margin-top: 10%;
+        cursor: pointer;
+        display: table;
+    }
+
+    .btn-dados .text-btn-dados {
+        display : flex;
+        align-items : center;
+        justify-content : left;
+        position: relative;
+        float: left;
+    }
+    .btn-dados #icon-dados {
+        width: 25%;
+        margin-left: 10%;
+        font-size: 22px;      
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        position: relative;
+        float: left;
+    }
+    .btn-dados:hover{
+        background-color: #f1e1fd;
+    }
+    .btn-cargo {
+        background-color: #ffffff;
+        width: 100%;
+        height: 9%;
+        font-size: 50%;
+        font-family: nunito;
+        color: #b8b8b8;
+        margin-top: 5%;
+        cursor: pointer;
+        display: table;
+    }
+
+    .btn-cargo .text-btn-cargo {
+        display : flex;
+        align-items : center;
+        justify-content : left;
+        position: relative;
+        float: left;
+    }
+    .btn-cargo #icon-cargo {
+        width: 25%;
+        margin-left: 10%;
+        font-size: 22px;      
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        position: relative;
+        float: left;
+    }
+    .btn-cargo:hover{
+        background-color: #f1e1fd;
+    }
+    .btn-feed {
+        border-right: 5px solid #9129e1;
+        background-color: #f1e1fd;
+        width: 98%;
+        height: 9%;
+        font-size: 50%;
+        font-family: nunito;
+        color: #9129e1;
+        margin-top: 5%;
+        cursor: pointer;
+        display: table;
+    }
+
+    .btn-feed .text-btn-feed {
+        display : flex;
+        align-items : center;
+        justify-content : left;
+        position: relative;
+        float: left;
+    }
+    .btn-feed #icon-feed {
+        width: 25%;
+        margin-left: 10%;
+        font-size: 22px;      
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        position: relative;
+        float: left;
+    }
+    .btn-feed:hover{
+        background-color: #f1e1fd;
+    }
+    .btn-plano {
+        background-color: #ffffff;
+        width: 100%;
+        height: 9%;
+        font-size: 50%;
+        font-family: nunito;
+        color: #b8b8b8;
+        margin-top: 5%;
+        cursor: pointer;
+        display: table;
+    }
+
+    .btn-plano .text-btn-plano {
+        display : flex;
+        align-items : center;
+        justify-content : left;
+        position: relative;
+        float: left;
+    }
+    .btn-plano #icon-plano {
+        width: 25%;
+        margin-left: 10%;
+        font-size: 22px;      
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        position: relative;
+        float: left;
+    }
+    .btn-plano:hover{
+        background-color: #f1e1fd;
+    }
+    .work {
+        background-color: #D8E3FF;
+        margin-top: 15%;
+        width: 85%;
+        border-radius: 15%;
+        height: 30%;
+        display: table;
+    }
+    .work .img-work {
+        width: 16.9%;
+        height: 15%;
+        position: absolute;
+        margin-top: -2%;
+        align-items : center;
+        justify-content : center;
+    }
+    .work .text-work {
+        width: 80%;
+        height: 27%;
+        margin-top: 36%;
+        font-family: nunito;
+        font-size: 75%;
+        text-align: center;
+        align-items : center;
+        justify-content : center;
+    }
+    .work .btn-work {
+        background-color: #31374F;
+        width: 45%;
+        height: 20%;
+        border-radius: 3vh;
+        margin-top: 3%;
+        cursor: pointer;
+        display: table;
+        align-items : center;
+        justify-content : center;
+    }
+    
+    .work .btn-work .text-btn-work {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-family: nunito;
+        font-size: 100%;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .work .btn-work:hover {
+        font-family: nunito;
+        font-size: 100%;
+        color: #fff;
+        text-align: center;
+        background-color: #3e4253;
+        width: 45%;
+        height: 20%;
+        border-radius: 3vh;
+        cursor: pointer;
+    }
+    .info-page{
+        border-radius: 4vh;
+        background-color: #D8E3FF;
+        width: 50%;
+        height: 25%;
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 25%;
+        box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.12);
+    }
+    .info-page .title-infopage{
+        width: 90%;
+        height: 28%;
+        margin-top: 4%;
+        font-family: nunito;
+        font-size: 1.3vmax;
+    }
+    .info-page .text-infopage{
+        width: 90%;
+        height: 29%;
+        font-family: nunitoregular;
+        font-size: 1.3vmax;
+    }
+    .info-page .text-infopage span{
+        color: #9129e1;
+    }
+    .img-infopage {
+        width: 28%;
+        display: flex;
+        float: right;
+        margin-right: 5%;
+        margin-top: -20%;
+    }
+}
